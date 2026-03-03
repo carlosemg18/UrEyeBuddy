@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.so
+venv/
+env/
+.venv/
+*.pt
+*.pth
+*.onnx
+wandb/
+runs/
+checkpoints/
+*.mlmodel
+*.mlpackage
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Xcode
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+DerivedData/
+build/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# IDE
+.idea/
+.vscode/
+*.xcworkspace/
+
+# Environment
+.env
+.env.local

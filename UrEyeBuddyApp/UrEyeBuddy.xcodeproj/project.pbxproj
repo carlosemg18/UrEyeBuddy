@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001 /* UrEyeBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001; };
+		A10002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10002; };
+		A10003 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10003; };
+		A10004 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10004; };
+		A10005 /* ContactsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10005; };
+		A10006 /* EnrollFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10006; };
+		A10007 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10007; };
+		A10008 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10008; };
+		A10009 /* FaceDetectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10009; };
+		A10010 /* FaceRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10010; };
+		A10011 /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10011; };
+		A10012 /* ContactStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10012; };
+		A10013 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10013; };
+		A10014 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10014; };
+		A10015 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10015; };
+		A10016 /* RecognitionPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10016; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10001 /* UrEyeBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrEyeBuddyApp.swift; sourceTree = "<group>"; };
+		B10002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10003 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		B10004 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		B10005 /* ContactsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListView.swift; sourceTree = "<group>"; };
+		B10006 /* EnrollFaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollFaceView.swift; sourceTree = "<group>"; };
+		B10007 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B10008 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		B10009 /* FaceDetectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionService.swift; sourceTree = "<group>"; };
+		B10010 /* FaceRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognitionService.swift; sourceTree = "<group>"; };
+		B10011 /* HapticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticService.swift; sourceTree = "<group>"; };
+		B10012 /* ContactStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStore.swift; sourceTree = "<group>"; };
+		B10013 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		B10014 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		B10015 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		B10016 /* RecognitionPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionPipeline.swift; sourceTree = "<group>"; };
+		B10017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		P10001 /* UrEyeBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrEyeBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G10001 = {
+			isa = PBXGroup;
+			children = (
+				G10002 /* UrEyeBuddy */,
+				G10008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G10002 /* UrEyeBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				G10003 /* App */,
+				G10004 /* Models */,
+				G10005 /* Services */,
+				G10006 /* ViewModels */,
+				G10007 /* Views */,
+				G10009 /* Pipeline */,
+			);
+			path = UrEyeBuddy;
+			sourceTree = "<group>";
+		};
+		G10003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B10001 /* UrEyeBuddyApp.swift */,
+				B10017 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		G10004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10013 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G10005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10008 /* CameraService.swift */,
+				B10009 /* FaceDetectionService.swift */,
+				B10010 /* FaceRecognitionService.swift */,
+				B10011 /* HapticService.swift */,
+				B10012 /* ContactStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		G10006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B10014 /* CameraViewModel.swift */,
+				B10015 /* ContactsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		G10007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B10002 /* ContentView.swift */,
+				B10003 /* CameraView.swift */,
+				B10004 /* CameraPreviewView.swift */,
+				B10005 /* ContactsListView.swift */,
+				B10006 /* EnrollFaceView.swift */,
+				B10007 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		G10008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				P10001 /* UrEyeBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G10009 /* Pipeline */ = {
+			isa = PBXGroup;
+			children = (
+				B10016 /* RecognitionPipeline.swift */,
+			);
+			path = Pipeline;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T10001 /* UrEyeBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CL10002 /* Build configuration list for PBXNativeTarget "UrEyeBuddy" */;
+			buildPhases = (
+				S10001 /* Sources */,
+				F10001 /* Frameworks */,
+				R10001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UrEyeBuddy;
+			productName = UrEyeBuddy;
+			productReference = P10001 /* UrEyeBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PR10001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = CL10001 /* Build configuration list for PBXProject "UrEyeBuddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G10001;
+			productRefGroup = G10008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T10001 /* UrEyeBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		R10001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S10001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001 /* UrEyeBuddyApp.swift in Sources */,
+				A10002 /* ContentView.swift in Sources */,
+				A10003 /* CameraView.swift in Sources */,
+				A10004 /* CameraPreviewView.swift in Sources */,
+				A10005 /* ContactsListView.swift in Sources */,
+				A10006 /* EnrollFaceView.swift in Sources */,
+				A10007 /* SettingsView.swift in Sources */,
+				A10008 /* CameraService.swift in Sources */,
+				A10009 /* FaceDetectionService.swift in Sources */,
+				A10010 /* FaceRecognitionService.swift in Sources */,
+				A10011 /* HapticService.swift in Sources */,
+				A10012 /* ContactStore.swift in Sources */,
+				A10013 /* Contact.swift in Sources */,
+				A10014 /* CameraViewModel.swift in Sources */,
+				A10015 /* ContactsViewModel.swift in Sources */,
+				A10016 /* RecognitionPipeline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC10001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC10002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC10003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UrEyeBuddy/App/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "UrEyeBuddy uses the camera to detect and recognise faces so it can alert you when someone you know is nearby.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureyebuddy.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BC10004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UrEyeBuddy/App/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "UrEyeBuddy uses the camera to detect and recognise faces so it can alert you when someone you know is nearby.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureyebuddy.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CL10001 /* Build configuration list for PBXProject "UrEyeBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC10001 /* Debug */,
+				BC10002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CL10002 /* Build configuration list for PBXNativeTarget "UrEyeBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC10003 /* Debug */,
+				BC10004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = PR10001 /* Project object */;
+}
